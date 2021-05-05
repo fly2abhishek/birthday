@@ -13,7 +13,12 @@ body {
 }
 .peach {
 	background-color: #FFDAB9;
-
+	background-image: url(prachi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
 }
 .peach-after {
 	-webkit-animation:peach_alive linear 8s infinite;
@@ -1080,10 +1085,10 @@ audio {
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 100px;
-	height: 183px;
+	width: 75px;
+	height: 150px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 100px 183px;
+	background-size: 75px 150px;
 }
 .balloons h2 {
 	text-transform: uppercase;
@@ -1115,7 +1120,7 @@ audio {
 	background-image: url('b7.png');
 }
 #b8,#b88{
-	background-image: url('b3.png');
+	background-image: url('b2.png');
 }
 #b9,#b99{
 	background-image: url('b4.png');
@@ -1271,10 +1276,10 @@ audio {
 }
 
 .cake-cover {
-	margin-top: 50px;
+	margin-top: 150px;
 }
 .message {
-	margin-top: 400px;
+	margin-top: 150px;
 	display: none;
 }
 .message p {
